@@ -1,13 +1,19 @@
 up: docker-up
 down: docker-down
 build: docker-build
+rest: restart
+restb: docker-down docker-build docker-up
 restart: docker-down docker-up
+bash: docker-bash
 
 docker-up:
-	docker-compose up -d
+	sudo docker compose up -d
 
 docker-down:
-	docker-compose down --remove-orphans
+	sudo docker compose down --remove-orphans
 
 docker-build:
-	docker-compose build
+	sudo docker compose build
+
+docker-bash:
+	sudo docker compose exec -it php-fpm bash
