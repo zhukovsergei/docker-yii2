@@ -1,0 +1,171 @@
+.box-modal {
+	position: relative;
+	width: 510px;
+	padding: 16px;
+	background: #fff;
+	border-radius: 5px;
+    transition: height 0.25s ease;
+}
+
+#check-repair{
+    width: 400px;
+}
+
+#check_result{
+    width: 460px;
+}
+
+.box-modal_close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
+    cursor: pointer; }
+
+.box-modal_close:hover {
+    color: #666;
+}
+
+.heading{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font: 18px 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #256190;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+p{
+    font: 14px 'Open Sans', sans-serif;
+    color: #000000;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+label{
+    margin: 0;
+    padding: 0;
+}
+
+select,textarea,input{
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    padding: 0 5px;
+    font-weight: normal;
+}
+
+select{
+    font-weight: normal;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid #ffa321;
+}
+
+#name{
+    width: 478px;
+}
+
+#phone{
+    width: 230px;
+    margin-right: 14px;
+}
+
+#town{
+    width: 230px;
+}
+
+#town:focus{
+    outline: none;
+    border: 1px solid #ffa321;
+}
+
+#message{
+    width: 478px;
+    height: 88px;
+}
+
+#message:focus{
+    outline: none;
+    border: 1px solid #ffa321;
+}
+
+#send{
+    width: 170px;
+    height: 35px;
+    margin: 10px 0 5px 0;
+    background: #ffa321;
+    border: none;
+    font: 14px 'Open Sans', sans-serif;
+    color: #ffffff;
+    transition: background 0.25s ease;
+}
+
+#send:hover{
+    background: #e58600;
+}
+
+span.revising{
+    font: 12px 'Open Sans', sans-serif;
+    color: #ffa321;
+    display: inline-block;
+    margin: 0 0 0 25px;
+}
+
+#check-number{
+    width: 235px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+#check{
+    width: 110px;
+    height: 30px;
+    background-color: #ffa321;
+    color: #ffffff;
+    border: none;
+    transition: background 0.25s ease;
+}
+
+#check:hover{
+    background: #e58600;
+}
+
+.ready{
+    font: 14px 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #ffa321;
+    padding: 0;
+    margin: 15px 0 30px 0;
+}
+
+span.contact{
+    font: 14px 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.remember{
+    font-size: 12px;
+    color: #c3c3c3;
+}
+
+a.remember{
+    text-decoration: underline;
+}
+
+a.remember:hover{
+    color: #c3c3c3;
+}
+
+p.remember{
+    margin: 30px 0 0 0;
+    padding: 0;
+}
