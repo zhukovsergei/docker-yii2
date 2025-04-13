@@ -22,7 +22,7 @@ $widgetId = Uuid::uuid4()->toString();
     <div class="form-group">
         <label class="col-lg-<?=$lg[0]?> control-label"></label>
         <div class="col-lg-<?=$lg[1]?> link-container">
-            <a target="_blank" download href="<?=$fileUrl?>"><?=$val?></a>
+            <a target="_blank" href="<?=$fileUrl?>"><?=$val?></a>
         </div>
         <div class="col-lg-3 ">
             <a href="<?=$fileUrl?>" download class="btn btn-info btn-xs btn-labeled icon-lg fa fa-cloud-download" style="margin-right: 5px;">
