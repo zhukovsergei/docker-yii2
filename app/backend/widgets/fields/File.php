@@ -27,12 +27,12 @@ class File extends ExtendWidget
         ]);
     }
 
-    private function getFilePath() :string
+    private function getFilePath() :?string
     {
         return isset($this->model) ? $this->model->getUploadedFilePath($this->nf) : '';
     }
 
-    private function getFileUrl() :string
+    private function getFileUrl() :?string
     {
         return isset($this->model) ? $this->model->getUploadedFileUrl($this->nf) : '';
     }
