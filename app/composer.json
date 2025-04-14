@@ -31,7 +31,7 @@
     "vlucas/phpdotenv": "^3.6",
     "ramsey/uuid": "^4.1",
     "zhukovsergei/yii2-seo": "dev-master",
-    "creocoder/yii2-flysystem": "^0.10.0",
+    "creocoder/yii2-flysystem": "^1.2",
     "symfony/filesystem": "^5.1",
     "imangazaliev/didom": "^1.16"
   },
