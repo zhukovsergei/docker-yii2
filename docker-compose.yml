@@ -21,6 +21,7 @@ services:
             APP_ENV: dev
         volumes:
             - ./app:/var/www/app
+            - ./docker/php/conf.d/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
         working_dir: /var/www/app
         networks:
             - backend
