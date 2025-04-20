@@ -1,6 +1,9 @@
 <?php
 namespace aiur\helpers;
 
+/**
+ * @Deprecated
+ */
 class NumToTextHelper
 {
   /**
@@ -8,7 +11,8 @@ class NumToTextHelper
    * @author runcore
    * @uses morph(...)
    */
-  public static function handle($num) {
+  public static function handle($num): string
+  {
     $nul = 'ноль';
     $ten = [
       ['','один','два','три','четыре','пять','шесть','семь', 'восемь','девять'],

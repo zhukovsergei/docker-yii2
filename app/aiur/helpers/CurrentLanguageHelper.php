@@ -3,7 +3,7 @@ namespace aiur\helpers;
 
 class CurrentLanguageHelper
 {
-    private static $config = [
+    private static array $config = [
         'de' => [
             'icon' => 'germany.png',
             'codeName' => 'De',
@@ -26,17 +26,17 @@ class CurrentLanguageHelper
         ]
     ];
 
-    public static function getIconName()
+    public static function getIconName(): string
     {
         return static::$config[\Yii::$app->language]['icon'];
     }
 
-    public static function getCodeName()
+    public static function getCodeName(): string
     {
         return static::$config[\Yii::$app->language]['codeName'];
     }
 
-    public static function getLabel()
+    public static function getLabel(): string
     {
         return static::$config[\Yii::$app->language]['label'];
     }
