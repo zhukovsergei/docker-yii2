@@ -7,13 +7,13 @@ restart: docker-down docker-up
 bash: docker-bash
 
 docker-up:
-	sudo docker compose up -d
+	docker compose up -d
 
 docker-down:
-	sudo docker compose down --remove-orphans
+	docker compose down --remove-orphans
 
 docker-build:
-	sudo docker compose build
+	docker compose build
 
 docker-bash:
-	sudo docker compose exec -it php-fpm bash
+	docker compose exec -it php-fpm bash
