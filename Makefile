@@ -5,6 +5,7 @@ rest: restart
 restb: docker-down docker-build docker-up
 restart: docker-down docker-up
 bash: docker-bash
+test: nginx-test
 
 docker-up:
 	docker compose up -d
@@ -17,3 +18,6 @@ docker-build:
 
 docker-bash:
 	docker compose exec -it php-fpm bash
+
+nginx-test:
+	docker compose exec -it nginx nginx -t
